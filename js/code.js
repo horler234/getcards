@@ -6,7 +6,7 @@ fetch("https://api.github.com/graphql", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
-    Authorization: "bearer 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",
+    Authorization: "bearer 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",
   },
   body: JSON.stringify({
     query: `
