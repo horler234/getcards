@@ -1,0 +1,144 @@
+@media (min-width: 768px) {
+  nav {
+    padding: 16px 24px;
+  }
+
+  .hamburger-wrapper {
+    display: none;
+  }
+
+  .brand-logo {
+    display: block;
+    flex: 0;
+  }
+
+  .nav-content {
+    display: flex;
+  }
+
+  ul.navbar-list li.desktop {
+    display: none;
+  }
+
+  .notification-container {
+    margin-right: 16px;
+  }
+
+  .add-container,
+  .image-container {
+    display: flex;
+  }
+
+  .main-navigation-container {
+    padding: 0 24px;
+  }
+
+  .main-navigation {
+      display: block;
+  }
+
+  .empty-column,
+  .main-navigation-content,
+  .main-description-container {
+    padding: 0 8px;
+  }
+
+  .main-profile-container {
+    padding: 0 24px;
+  }
+
+  .main-image-wrapper {
+    display: flex;
+  }
+
+  .main-image-wrapper a img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .badge-container {
+    position: absolute;
+    z-index: 2;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 rgba(27, 31, 35, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    left: 140px;
+    top: -170px;
+    margin: 0;
+  }
+
+  .badge-container span,
+  .mobile-repo-navigation {
+      display: none;
+  }
+
+  .badge-wrapper {
+      width: auto;
+  }
+
+  .badge-container svg {
+      margin: 0;
+  }
+
+  .main-description-container {
+      width: 25%;
+  }
+
+  .main-description-wrapper {
+    margin-top: -32px;
+  }
+
+  .main-repositories-container {
+      width: 75%;
+  }
+}
+
+@media (min-width: 1000px) {
+  ul.navbar-list li.desktop {
+    display: block;
+  }
+
+  ul.navbar-list li.mobile {
+    display: none;
+  }
+
+  .main-image-wrapper a img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .badge-container {
+    top: -110;
+    left: -60px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .main-image-wrapper a img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .badge-container {
+    top: -110;
+    left: -10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .main-navigation-container {
+    padding: 0 32px;
+  }
+}

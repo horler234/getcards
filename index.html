@@ -1,0 +1,463 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>GetCards Challenge</title>
+  </head>
+  <body>
+    <nav>
+      <div class="hamburger-wrapper">
+        <button>
+          <svg
+            height="24"
+            class="octicon octicon-three-bars"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="brand-logo">
+        <a href="#">
+          <img src="/images/github-brands.svg" alt="Github" />
+        </a>
+      </div>
+
+      <div class="nav-content">
+        <div class="search-form-container">
+          <div class="search-form-wrapper">
+            <form>
+              <input type="text" placeholder="Search or jump to..." />
+              <button>/</button>
+            </form>
+          </div>
+        </div>
+
+        <ul class="navbar-list">
+          <li class="mobile"><a href="#">Pulls</a></li>
+          <li class="desktop"><a href="#">Pull requests</a></li>
+          <li><a href="#">Issues</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Explore</a></li>
+        </ul>
+      </div>
+
+      <div class="notification-container">
+        <div class="notification-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="#fff"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"
+            />
+          </svg>
+        </div>
+        <div></div>
+      </div>
+
+      <div class="add-container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 0 24 24"
+          width="24px"
+          id="add"
+          fill="#fff"
+        >
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+        </svg>
+
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="caret-down"
+          class="svg-inline--fa fa-caret-down fa-w-10"
+          id="caret"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512"
+        >
+          <path
+            fill="#fff"
+            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="image-container">
+        <div class="nav-image-wrapper">
+          <img src="/images/59251597.jpg" alt="Abdulmuqit" />
+        </div>
+
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="caret-down"
+          class="svg-inline--fa fa-caret-down fa-w-10"
+          id="caret"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512"
+        >
+          <path
+            fill="#fff"
+            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+          ></path>
+        </svg>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main-navigation">
+        <div class="main-navigation-container">
+          <div class="main-container-flex">
+            <div class="empty-column"></div>
+
+            <div class="main-navigation-content">
+              <div class="main-content-wrapper">
+                <ul class="main-navigation-list">
+                  <li>
+                    <a href="#"
+                      ><svg
+                        aria-hidden="true"
+                        viewBox="0 0 16 16"
+                        version="1.1"
+                        data-view-component="true"
+                        height="16"
+                        width="16"
+                        class="
+                          octicon octicon-book
+                          UnderlineNav-octicon
+                          hide-sm
+                        "
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"
+                        ></path>
+                      </svg>
+                      Overview
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><svg
+                        aria-hidden="true"
+                        viewBox="0 0 16 16"
+                        version="1.1"
+                        data-view-component="true"
+                        height="16"
+                        width="16"
+                        class="
+                          octicon octicon-repo
+                          UnderlineNav-octicon
+                          hide-sm
+                        "
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
+                        ></path>
+                      </svg>
+                      Repositories
+                      <span>20</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><svg
+                        aria-hidden="true"
+                        viewBox="0 0 16 16"
+                        version="1.1"
+                        data-view-component="true"
+                        height="16"
+                        width="16"
+                        class="
+                          octicon octicon-project
+                          UnderlineNav-octicon
+                          hide-sm
+                        "
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"
+                        ></path>
+                      </svg>
+                      Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><svg
+                        aria-hidden="true"
+                        viewBox="0 0 16 16"
+                        version="1.1"
+                        data-view-component="true"
+                        height="16"
+                        width="16"
+                        class="
+                          octicon octicon-package
+                          UnderlineNav-octicon
+                          hide-sm
+                        "
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"
+                        ></path>
+                      </svg>
+                      Packages
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-profile-container">
+        <div class="main-profile-flex">
+          <div class="main-description-container">
+            <div class="main-description-wrapper">
+              <div class="main-image-title-wrapper">
+                <div class="main-image-wrapper">
+                  <a href="#">
+                    <img
+                      src="/images/59251597.jpg"
+                      alt="Codelord"
+                      height="260"
+                      width="260"
+                    />
+                  </a>
+
+                  <div class="main-name-container mobile">
+                    <h1>
+                      <span>Shuaib Abdulmuqit</span>
+                      <span>horler234</span>
+                    </h1>
+                  </div>
+
+                  <div class="badge-wrapper">
+                    <div class="badge-container">
+                      <svg
+                        class="octicon octicon-smiley"
+                        viewBox="0 0 16 16"
+                        version="1.1"
+                        width="16"
+                        height="16"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"
+                        ></path>
+                      </svg>
+
+                      <span>Set Status</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="main-name-container">
+                  <h1>
+                    <span>Shuaib Abdulmuqit</span>
+                    <span>horler234</span>
+                  </h1>
+                </div>
+
+                <div class="main-description"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile-repo-navigation">
+            <ul class="main-navigation-list">
+              <li>
+                <a href="#"
+                  ><svg
+                    aria-hidden="true"
+                    viewBox="0 0 16 16"
+                    version="1.1"
+                    data-view-component="true"
+                    height="16"
+                    width="16"
+                    class="octicon octicon-book UnderlineNav-octicon hide-sm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"
+                    ></path>
+                  </svg>
+                  Overview
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    aria-hidden="true"
+                    viewBox="0 0 16 16"
+                    version="1.1"
+                    data-view-component="true"
+                    height="16"
+                    width="16"
+                    class="octicon octicon-repo UnderlineNav-octicon hide-sm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
+                    ></path>
+                  </svg>
+                  Repositories
+                  <span>70</span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    aria-hidden="true"
+                    viewBox="0 0 16 16"
+                    version="1.1"
+                    data-view-component="true"
+                    height="16"
+                    width="16"
+                    class="octicon octicon-project UnderlineNav-octicon hide-sm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"
+                    ></path>
+                  </svg>
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    aria-hidden="true"
+                    viewBox="0 0 16 16"
+                    version="1.1"
+                    data-view-component="true"
+                    height="16"
+                    width="16"
+                    class="octicon octicon-package UnderlineNav-octicon hide-sm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"
+                    ></path>
+                  </svg>
+                  Packages
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="main-repositories-container">
+            <div class="main-filter-container">
+              <div class="main-filter-wrapper">
+                <form>
+                  <input
+                    type="search"
+                    placeholder="Find a repository..."
+                    aria-label="Find a repository..."
+                  />
+                </form>
+              </div>
+            </div>
+
+            <div class="main-repositories">
+              <ul class="repositories-list">
+                <li>
+                  <div class="repository-detail">
+                    <div class="repositories-title-wrapper">
+                      <h3>
+                        <a href="#">ohw-2020-7</a>
+                        <span>Private</span>
+                      </h3>
+                      <span>Forked from DSC-Unilag/ohw-2020-7</span>
+                    </div>
+
+                    <div class="repo-desc">
+                      <p>
+                        All course files for the Node.js (& Express) JWT
+                        Authentication tutorial series on The Net Ninja YouTube
+                        channel.
+                      </p>
+                    </div>
+
+                    <div class="repo-description">
+                      <span class="language">
+                        <span class="language-color"></span>
+                        HTML
+                      </span>
+                      <a href="#">
+                        <svg
+                          aria-label="fork"
+                          class="octicon octicon-repo-forked"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          width="16"
+                          height="16"
+                          role="img"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"
+                          ></path>
+                        </svg>
+                        3
+                      </a>
+
+                      <span class="update-time">Updated on Aug 1, 2020</span>
+                    </div>
+                  </div>
+
+                  <div class="star-button-wrapper">
+                    <button>
+                      <svg
+                        class="octicon octicon-star mr-1"
+                        viewBox="0 0 16 16"
+                        version="1.1"
+                        width="16"
+                        height="16"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"
+                        ></path>
+                      </svg>
+                      Star
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="ui.js"></script>
+    <script src="code.js"></script>
+  </body>
+</html>
