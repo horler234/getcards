@@ -2,7 +2,7 @@ fetch("https://api.github.com/graphql", {
   method: "POST",
   headers: { 
       "Content-Type": "application/json",
-      Authorization: "token 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"
+      Authorization: "token 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"
     },
   body: JSON.stringify({
     query: `
